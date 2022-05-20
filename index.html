@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- Navigation bar starting -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-xl navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./img/logo.svg" alt="" />
@@ -74,7 +74,7 @@
                 >Process</a
               >
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
                 >Products</a
               >
@@ -83,7 +83,7 @@
               <a class="nav-link active" aria-current="page" href="#"
                 >Portfolio</a
               >
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">About</a>
             </li>
@@ -133,8 +133,8 @@
         list and you will see the variety and the spices.
       </p>
 
-      <div class="section-card">
-        <div class="row row-cols-1 row-cols-md-auto g-4 flex-wrap">
+      <div class="services-card">
+        <div class="services-card-box">
           <div class="col">
             <div class="card card-primary">
               <div class="card-body">
@@ -218,6 +218,8 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="services-card-box">
           <div class="col">
             <div class="card card-primary">
               <div class="card-body">
@@ -319,53 +321,71 @@
         </p>
       </div>
       <div class="section-split-right">
-        <div class="square-box border">
-          <img src="./img/laravel.svg" alt="..." />
-          <p class="square-box-text">Laravel</p>
+        <div class="outer-box">
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/laravel.svg" alt="..." />
+              <p class="square-box-text">Laravel</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/react.svg" alt="..." />
+              <p class="square-box-text">React</p>
+            </div>
+          </div>
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/android.svg" alt="..." />
+              <p class="square-box-text">Android</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/swift.svg" alt="..." />
+              <p class="square-box-text">Swift</p>
+            </div>
+          </div>
         </div>
-        <div class="square-box border">
-          <img src="./img/react.svg" alt="..." />
-          <p class="square-box-text">React</p>
+        <div class="outer-box">
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/apple.svg" alt="..." />
+              <p class="square-box-text">IOS</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/linode.svg" alt="..." />
+              <p class="square-box-text">Linode</p>
+            </div>
+          </div>
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/aws.svg" alt="..." />
+              <p class="square-box-text">AWS</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/vue.svg" alt="..." />
+              <p class="square-box-text">Vue js</p>
+            </div>
+          </div>
         </div>
-        <div class="square-box border">
-          <img src="./img/android.svg" alt="..." />
-          <p class="square-box-text">Android</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/swift.svg" alt="..." />
-          <p class="square-box-text">Swift</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/apple.svg" alt="..." />
-          <p class="square-box-text">IOS</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/linode.svg" alt="..." />
-          <p class="square-box-text">Linode</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/aws.svg" alt="..." />
-          <p class="square-box-text">AWS</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/vue.svg" alt="..." />
-          <p class="square-box-text">Vue js</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/apple.svg" alt="..." />
-          <p class="square-box-text">IOS</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/linode.svg" alt="..." />
-          <p class="square-box-text">Linode</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/aws.svg" alt="..." />
-          <p class="square-box-text">AWS</p>
-        </div>
-        <div class="square-box border">
-          <img src="./img/vue.svg" alt="..." />
-          <p class="square-box-text">Vue js</p>
+        <div class="outer-box">
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/apple.svg" alt="..." />
+              <p class="square-box-text">IOS</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/linode.svg" alt="..." />
+              <p class="square-box-text">Linode</p>
+            </div>
+          </div>
+          <div class="outer-box-item">
+            <div class="square-box border">
+              <img src="../dist/img/aws.svg" alt="..." />
+              <p class="square-box-text">AWS</p>
+            </div>
+            <div class="square-box border">
+              <img src="../dist/img/vue.svg" alt="..." />
+              <p class="square-box-text">Vue js</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -383,48 +403,60 @@
         list and you will see the variety and the spices.
       </p>
       <div class="d-flex justify-content-between process-list">
-        <div class="card card-secondary">
-          <div class="card-body">
-            <img src="./img/planing.svg" class="card-img-top" alt="..." />
-            <h5 class="card-title">Planning</h5>
-            <p class="card-text section-text-secondary">
-              Application of technology in versatile segments and ipsum bringing
-              in versatile.
-            </p>
+        <div class="process-list-item">
+          <div class="card card-secondary">
+            <div class="card-body">
+              <img
+                src="../dist/img/planing.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title">Planning</h5>
+              <p class="card-text section-text-secondary">
+                Application of technology in versatile segments and ipsum
+                bringing in versatile.
+              </p>
+            </div>
+          </div>
+          <div class="card card-secondary">
+            <div class="card-body">
+              <img
+                src="../dist/img/design.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title">Designing</h5>
+              <p class="card-text section-text-secondary">
+                Application of technology in versatile segments and ipsum
+                bringing in versatile.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card card-secondary">
-          <div class="card-body">
-            <img src="./img/design.svg" class="card-img-top" alt="..." />
-            <h5 class="card-title">Designing</h5>
-            <p class="card-text section-text-secondary">
-              Application of technology in versatile segments and ipsum bringing
-              in versatile.
-            </p>
+        <div class="process-list-item">
+          <div class="card card-secondary">
+            <div class="card-body">
+              <img
+                src="../dist/img/development.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <h5 class="card-title">Development</h5>
+              <p class="card-text section-text-secondary">
+                Application of technology in versatile segments and ipsum
+                bringing in versatile.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card card-secondary">
-          <div class="card-body">
-            <img
-              src="./img/development.svg"
-              class="card-img-top"
-              alt="..."
-            />
-            <h5 class="card-title">Development</h5>
-            <p class="card-text section-text-secondary">
-              Application of technology in versatile segments and ipsum bringing
-              in versatile.
-            </p>
-          </div>
-        </div>
-        <div class="card card-secondary">
-          <div class="card-body">
-            <img src="./img/live.svg" class="card-img-top" alt="..." />
-            <h5 class="card-title">Live</h5>
-            <p class="card-text section-text-secondary">
-              Application of technology in versatile segments and ipsum bringing
-              in versatile.
-            </p>
+          <div class="card card-secondary">
+            <div class="card-body">
+              <img src="../dist/img/live.svg" class="card-img-top" alt="..." />
+              <h5 class="card-title">Live</h5>
+              <p class="card-text section-text-secondary">
+                Application of technology in versatile segments and ipsum
+                bringing in versatile.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -432,10 +464,19 @@
     <!-- Process section end -->
 
     <!-- Partners section start -->
-    <section class="section partners">
+    <section class="section partners scroll-parent">
       <p class="section-heading2">Our Partners</p>
       <div
-        class="d-flex justify-content-between .align-items-center partners-list"
+        class="d-flex justify-content-between .align-items-center partners-list scroll-element primary"
+      >
+        <img src="./img/google.svg" alt="..." />
+        <img src="./img/aws.svg" alt="..." />
+        <img src="./img/gcp.svg" alt="..." />
+        <img src="./img/yahoo.svg" alt="..." />
+        <img src="./img/youtube.svg" alt="..." />
+      </div>
+      <div
+        class="d-flex justify-content-between .align-items-center partners-list scroll-element secondary"
       >
         <img src="./img/google.svg" alt="..." />
         <img src="./img/aws.svg" alt="..." />
@@ -457,11 +498,11 @@
             segments and bringing.
           </p>
           <div class="user">
-            <img src="./img/user.svg" alt="..." class="user-img" />
+            <img src="../dist/img/user.svg" alt="..." class="user-img" />
             <div class="user-info">
               <p class="user-name">Lorem Ipsum</p>
               <p class="user-about">Managing Director</p>
-              <img src="./img/5star.svg" alt="..." class="user-rating" />
+              <img src="../dist/img/5star.svg" alt="..." class="user-rating" />
             </div>
           </div>
         </div>
@@ -472,11 +513,11 @@
             segments and bringing.
           </p>
           <div class="user">
-            <img src="./img/user.svg" alt="..." class="user-img" />
+            <img src="../dist/img/user.svg" alt="..." class="user-img" />
             <div class="user-info">
               <p class="user-name">Lorem Ipsum</p>
               <p class="user-about">Managing Director</p>
-              <img src="./img/5star.svg" alt="..." class="user-rating" />
+              <img src="../dist/img/5star.svg" alt="..." class="user-rating" />
             </div>
           </div>
         </div>
@@ -524,7 +565,7 @@
     <section class="section footer">
       <div class="footer-top">
         <div class="footer-left">
-          <img class="logo" src="./img/logo-white.svg" alt="" />
+          <img class="logo" src="../dist/img/logo-white.svg" alt="" />
           <p class="footer-left-title">MOJGENIE IT SOLUTIONS PRIVATE LIMITED</p>
           <p class="footer-left-address">
             KSITIL Special Economic Zone<br />
@@ -578,9 +619,9 @@
         <hr />
         <div class="social">
           <p class="social-title">Follow us:</p>
-          <img src="./img/instagram.svg" alt="" />
-          <img src="./img/facebook.svg" alt="" />
-          <img src="./img/linkedin.svg" alt="" />
+          <img src="../dist/img/instagram.svg" alt="" />
+          <img src="../dist/img/facebook.svg" alt="" />
+          <img src="../dist/img/linkedin.svg" alt="" />
         </div>
       </div>
     </section>
