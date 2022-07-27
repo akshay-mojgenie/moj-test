@@ -78,8 +78,11 @@
     <!-- Navigation bar ending -->
 
     <!-- Hero section starting -->
-    <section class="section hero contact">
-      <p class="section-heading-large">Contact Us</p>
+    <section
+      class="section hero contact"
+      style="background-image: url(../../img/hero-consultation.jpg)"
+    >
+      <p class="section-heading-large">Get a free consultation</p>
     </section>
     <!-- Hero section ending -->
 
@@ -89,9 +92,12 @@
       style="background-image: none"
     >
       <div class="section-split-left">
-        <p class="section-heading-medium" style="color: black">
+        <p class="section-heading" style="color: black">
           Tell us about your project
         </p>
+        <div style="width: 500px">
+          <img src="../img/writing.svg" alt="" />
+        </div>
         <p class="section-description" style="color: black">
           We understand that your business is unique and working with many out
           of the box software solutions can feel like a square peg in a round
@@ -104,12 +110,12 @@
           custom solution that is right for your business.
         </p>
       </div>
-      <div class="section-split-right enquiry-form-box">
-        <form class="enquiry-form" style="background-color: rgb(223, 223, 223);">
+      <div
+        class="section-split-right enquiry-form-box"
+        style="align-items: flex-end"
+      >
+        <form class="enquiry-form" style="background-color: #f7f7f7">
           <p class="enquiry-form-title">Let's talk</p>
-          <p class="section-text-secondary">
-            One of our specialist will reach you out with in next 6 hours
-          </p>
           <input
             type="text"
             class="form-control"
@@ -135,10 +141,11 @@
             placeholder="Company"
           />
           <textarea
+            style="height: unset"
             class="form-control"
             id="exampleFormControlTextarea1"
-            rows="3"
-            placeholder=""
+            rows="5"
+            placeholder="Tell us about your project"
           ></textarea>
           <button class="btn btn-outline-primary" type="submit">Send</button>
         </form>
